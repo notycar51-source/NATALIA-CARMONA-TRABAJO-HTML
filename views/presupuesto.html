@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <!--Configuración responsive-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Presupuesto</title>
+  <link rel="icon" type="image/png" href="../img/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+    <!--Cabecera-->
+  <header>
+      <div class="logo">
+  <a href="index.html">
+    <img src="../img/logo.png" alt="Logo Estudio Creativo">
+  </a>
+</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Portafolio</a></li>
+        <li><a href="presupuesto.html" class="active">Presupuesto</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--Contenido principal: formulario-->
+  <main>
+    <h2>Solicite su presupuesto</h2>
+    <form action="#" method="post">
+      <label for="nombre">Nombre o Email:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" required pattern="[0-9]{9,15}">
+
+      <label for="info">Solicite más información:</label>
+      <textarea id="info" name="info" rows="5" required></textarea>
+
+      <label>
+        <input type="checkbox" id="privacidad" name="privacidad" required>
+        Acepto la Política de Privacidad
+      </label>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+ <!-- == Footer == -->
+  <footer>
+    <section class="social" aria-label="Redes sociales">
+      <!-- Logotipos RRSS -->
+      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+        <img src="../img/imgsocialfacebook.png" alt="Facebook" width="40" height="40">
+      </a>
+      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+        <img src="../img/imgsocialtwitter.png" alt="Twitter" width="40" height="40">
+      </a>
+      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+        <img src="../img/imgsocialinstagram.png" alt="Instagram" width="40" height="40">
+      </a>
+    </section>
+
+    <section id="ubicacion">
+      <h2>Ubicación</h2>
+      <img src="../img/mapa.jpg" alt="Mapa con la ubicación del Estudio Creativo en Murcia">
+      <p>Calle Ejemplo 123, Murcia</p>
+    </section>
+
+    <small><a href="aviso-legal.html">Aviso Legal</a></small>
+  </footer>
