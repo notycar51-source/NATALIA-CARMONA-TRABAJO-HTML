@@ -6,7 +6,7 @@ El objetivo es ofrecer una presencia online moderna, atractiva y didáctica, mos
 
 ## Cómo usar
 1.  https://github.com/notycar51-source/NATALIA-CARMONA-TRABAJO-HTML.git
-2. https://notycar51-source.github.io/NataliaCarmona-TRABAJO-HTML
+2.  https://notycar51-source.github.io/NATALIA-CARMONA-TRABAJO-HTML
 
 
 ## Estructura del proyecto
